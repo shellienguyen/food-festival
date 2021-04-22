@@ -1,37 +1,29 @@
 {
-  "name": "food-festival",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "webpack": "webpack --watch",
-    "build": "webpack",
-    "start:dev": "webpack serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shellienguyen/food-festival.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shellienguyen/food-festival/issues"
-  },
-  "homepage": "https://github.com/shellienguyen/food-festival#readme",
-  "devDependencies": {
-    "file-loader": "^6.2.0",
-    "webpack": "^5.33.2",
-    "webpack-bundle-analyzer": "^4.4.1",
-    "webpack-cli": "^4.6.0",
-    "webpack-dev-server": "^3.11.2",
-    "webpack-pwa-manifest": "^4.3.0"
-  },
-  "dependencies": {
-    "bootstrap": "^4.6.0",
-    "image-webpack-loader": "^7.0.1",
-    "jquery": "^3.6.0",
-    "popper.js": "^1.16.1"
-  }
+    "name": "food-festival",
+    "version": "1.0.0",
+    "description": "",
+    "main": "assets/js/script.js",
+    "scripts": {
+        "webpack": "webpack --watch",
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start:dev": "webpack-dev-server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "file-loader": "^4.2.0",
+        "image-webpack-loader": "^6.0.0",
+        "webpack": "^4.32.2",
+        "webpack-bundle-analyzer": "^3.6.0",
+        "webpack-cli": "^3.3.2",
+        "webpack-pwa-manifest": "^4.3.0"
+    },
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "jquery": "^3.4.1",
+        "popper.js": "^1.16.0",
+        "webpack-dev-server": "^3.11.2"
+    }
 }
